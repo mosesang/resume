@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 100%;
+}
+
+main {
+    max-width: 1080px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+section {
+    padding: 1rem;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+}
+
+li {
+    line-height: 1.25rem;
+}
+
+
+
+@media screen and (max-width: 867px) {
+    img {
+        width: 100px;
+        height: 125px;
+    }
+}
+
+@media screen and (min-width: 867.2px) {
+    img {
+        width: 150px;
+        height: 200px;
+    }
+}
